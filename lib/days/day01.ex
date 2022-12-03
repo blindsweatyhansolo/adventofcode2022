@@ -36,4 +36,9 @@ defmodule Days.Day01 do
 
     IO.puts("Top three Elves are carrying a total of #{summed_cals} Calories.")
   end
+
+  def solution do
+    most_calories()
+    top_three_summed()
+  end
 end
